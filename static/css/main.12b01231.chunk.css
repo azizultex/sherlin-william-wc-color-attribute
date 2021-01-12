@@ -1,0 +1,34 @@
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}img.colorpicker_img{width:32px}.color-position .main{text-align:right}.colors{display:flex;background:#fff;padding:7px 3px 7px 8px;width:176px;flex-wrap:wrap;margin-top:6px;border-radius:5px;box-shadow:0 1px 5px 1px #ddd}.single_color{width:20px;height:20px;border:1px solid #fff;cursor:pointer;border-radius:2px}.colors_box{display:inline-block}input.search_input{width:97%;margin-bottom:5px;padding:5px 8px!important;font-weight:500;font-size:14px;outline:none;height:28px;border-radius:3px!important}#selectedcolor{display:none;width:28px;height:28px;background:#edeaea;margin-left:4px}.woocommerce div.product form.cart{position:relative!important}.color-position{position:absolute!important;top:88px;right:-10px;width:60px!important;z-index:9999;cursor:pointer}.single-color-list{width:100%;height:160px;display:flex;flex-wrap:wrap;overflow:auto;margin-top:10px}.colorpicker_bg{width:32px;height:32px;border-radius:50%}
+
+.hoodsly-colorpicker-main{
+    display: none;
+}
+
+.color-variable-item-z-sherwin-color .variable-item-span-color{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-variable-item-z-sherwin-color{
+    position: relative;
+}
+div#color-picker {
+    position: absolute;
+    top: 125%;
+    right: 0;
+    z-index: 99;
+}
+
+.colors_box:before {
+    content: "";
+    border: solid;
+    border-color: #f3f3f3 transparent;
+    border-width: 0px 10px 12px 10px;
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    z-index: -1;
+}
+/*# sourceMappingURL=main.12b01231.chunk.css.map */
